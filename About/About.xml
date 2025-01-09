@@ -1,0 +1,16 @@
+<ModMetaData>
+  <name>Equipable Backpacks</name>
+  <author>depjr1985</author>
+  <url>https://github.com/depjr1985/EquipableBackpacks</url>
+  <description>Adds equipable backpacks to pawns, allowing for additional carry capacity.</description>
+  <packageId>depjr1985.EquipableBackpacks</packageId>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld</packageId>
+      <displayName>Core</displayName> <!-- Add this to give the dependency a display name -->
+    </li>
+  </modDependencies>
+  <supportedVersions>
+    <li>1.5</li> <!-- Specify the supported version(s) of RimWorld -->
+  </supportedVersions>
+</ModMetaData>

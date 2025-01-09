@@ -1,0 +1,121 @@
+<Defs>
+  <!-- Standard Backpack -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Backpack_Standard</defName>
+    <label>Standard Backpack</label>
+    <description>A standard backpack for carrying additional items, worn on the belt.</description>
+    <graphicData>
+        <texPath>Things/Item/Backpacks/Backpack_Standard</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <tradeability>Sellable</tradeability>
+    <generateCommonality>0.5</generateCommonality>
+    <costStuffCount>50</costStuffCount> <!-- Amount of material needed -->
+    <stuffCategories>
+        <li>Fabric</li>
+		<li>Leathery</li><!-- or any other appropriate category like Leathery -->
+    </stuffCategories>
+	<colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>1</weight>
+          <min>(0.5,0.5,0.5,1)</min>
+          <max>(1.0,1.0,1.0,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+    <statBases>
+        <MaxHitPoints>120</MaxHitPoints>
+        <WorkToMake>5000</WorkToMake> <!-- Time to craft in ticks -->
+        <Mass>1.5</Mass>
+        <MarketValue>100</MarketValue>
+    </statBases>
+    <thingCategories Inherit="False">
+        <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+        <bodyPartGroups>
+            <li>Waist</li>
+        </bodyPartGroups>
+        <layers>
+            <li>Belt</li>
+        </layers>
+		<defaultOutfitTags>
+        <li>Anything*</li> <!-- This will make it part of the "Anything" outfit by default -->
+		<li>Worker</li>
+		<li>Nudist</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+        <recipeUsers Inherit="False">
+            <li>ElectricTailoringBench</li>
+            <li>HandTailoringBench</li>
+            <li>CraftingSpot</li>
+        </recipeUsers>
+    </recipeMaker>
+    <equippedStatOffsets>
+        <CarryingCapacity>50</CarryingCapacity> <!-- Increases carrying capacity by this much. eg: allows you to carry 50 more wooden logs -->
+    </equippedStatOffsets>
+</ThingDef>
+
+  <!-- Large Backpack -->
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>Backpack_Large</defName>
+    <label>Large Backpack</label>
+    <description>A large backpack significantly increasing carry capacity, worn on the belt.</description>
+    <graphicData>
+        <texPath>Things/Item/Backpacks/Backpack_Standard</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <tradeability>Sellable</tradeability>
+    <generateCommonality>0.3</generateCommonality>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+        <li>Fabric</li>
+		<li>Leathery</li>
+    </stuffCategories>
+	<colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>1</weight>
+          <min>(0.5,0.5,0.5,1)</min>
+          <max>(1.0,1.0,1.0,1)</max>
+        </li>
+      </options>
+    </colorGenerator>
+    <statBases>
+        <MaxHitPoints>180</MaxHitPoints>
+        <WorkToMake>8000</WorkToMake>
+        <Mass>3.0</Mass>
+        <MarketValue>250</MarketValue>
+    </statBases>
+    <thingCategories Inherit="False">
+        <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+        <bodyPartGroups>
+            <li>Waist</li>
+        </bodyPartGroups>
+        <layers>
+            <li>Belt</li>
+        </layers>
+		<defaultOutfitTags>
+        <li>Anything*</li>
+		<li>Worker</li>
+		<li>Nudist</li>
+      </defaultOutfitTags>
+    </apparel>
+    <recipeMaker>
+        <recipeUsers Inherit="False">
+            <li>ElectricTailoringBench</li>
+            <li>HandTailoringBench</li>
+            <li>CraftingSpot</li>
+        </recipeUsers>
+    </recipeMaker>
+    <equippedStatOffsets>
+        <CarryingCapacity>150</CarryingCapacity>
+    </equippedStatOffsets>
+</ThingDef>
+</Defs>
