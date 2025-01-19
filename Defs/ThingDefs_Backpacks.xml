@@ -51,7 +51,6 @@
         <recipeUsers Inherit="False">
             <li>ElectricTailoringBench</li>
             <li>HandTailoringBench</li>
-            <li>CraftingSpot</li>
         </recipeUsers>
     </recipeMaker>
     <equippedStatOffsets>
@@ -111,7 +110,6 @@
         <recipeUsers Inherit="False">
             <li>ElectricTailoringBench</li>
             <li>HandTailoringBench</li>
-            <li>CraftingSpot</li>
         </recipeUsers>
     </recipeMaker>
     <equippedStatOffsets>
