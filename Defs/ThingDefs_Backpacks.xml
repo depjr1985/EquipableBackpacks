@@ -65,7 +65,7 @@
     <label>Large Backpack</label>
     <description>A large backpack significantly increasing carry capacity, worn on the belt.</description>
     <graphicData>
-        <texPath>Things/Item/Backpacks/Backpack_Standard</texPath>
+        <texPath>Things/Item/Backpacks/Backpack_Large</texPath>
         <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <techLevel>Industrial</techLevel>
