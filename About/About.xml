@@ -7,10 +7,10 @@
   <modDependencies>
     <li>
       <packageId>Ludeon.RimWorld</packageId>
-      <displayName>Core</displayName> <!-- Add this to give the dependency a display name -->
+      <displayName>Core</displayName>
     </li>
   </modDependencies>
   <supportedVersions>
-    <li>1.5</li> <!-- Specify the supported version(s) of RimWorld -->
+    <li>1.5</li>
   </supportedVersions>
 </ModMetaData>
